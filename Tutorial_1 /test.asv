@@ -1,0 +1,10 @@
+% Test script for the forward kinematics function
+a1 = 1; a2 = 1; a3 = 1; a4 = 1; a5 = 1; t1 = 0.5; t5 = 0.7;
+p = forward_kinematics(a1, a2, a3, a4, a5, t1, t5);
+disp('Forward Kinematics:');
+disp(p);
+
+
+
+% Test script for plotting function
+% plot_linkage(a1, a2, a3, a4, a5, t1,t5)
